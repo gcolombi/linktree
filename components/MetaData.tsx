@@ -7,7 +7,7 @@ export default function MetaData({
 }: MetaDataProps) {
     const { currentURL } = useWindowLocation();
     const meta: MetaDataProps = {
-        title: 'Firstname Lastname Social medias links and more | Linklist',
+        title: 'Fullname Social medias links and more | Linklist',
         description: 'Linklist. Make your link do more.',
         image : `${process.env.NEXT_PUBLIC_BASE_URL}/static/og-image.png`,
         type: 'profile',
